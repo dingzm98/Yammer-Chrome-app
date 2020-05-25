@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script src="index.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <style>
+      .left {
+        margin-left: 25px;
+        text-align: left;
+        width: 60%;
+      }
+      .center {
+        margin: auto;
+        text-align: left;
+        width: 90%;
+      }
+      .top {
+        margin-top: 5px;
+      }
+      </style>
+  </head>
+  <body>
+    <img src="tamubanner.jpg" width="460" height="100" style="margin:10px 25px">
+    <img align="right" src="shell.jpg" width="100" height="100" style="margin:10px 25px">
+    <div class="left" id="user_info" > </div>
+    <button class="left" id="signin" style="display:none" class="btn btn-outline-primary">Sign in</button>
+    <button class="left" id="revoke" style="display:none" class="btn btn-outline-primary">log out</button>
+    <br><b class="left">post to:</b> <div><select class="left" id = "groups"> </select></div><br>
+    <div align="center"><textarea id="content" style="width: 90%; min-height: 150px"></textarea></div><br>
+    <div class="center" > <button id="submit" style="display:none" type="button" class="btn btn-primary btn-lg btn-block">post</button> </div>
+  </body>
+</html>

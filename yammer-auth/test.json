@@ -1,0 +1,351 @@
+{
+    "type": "user",
+    "id": 253828489216,
+    "network_id": 1888,
+    "state": "active",
+    "guid": null,
+    "job_title": null,
+    "location": null,
+    "interests": null,
+    "summary": null,
+    "expertise": null,
+    "full_name": "Zimo Ding",
+    "activated_at": "2019/09/23 22:23:32 +0000",
+    "auto_activated": true,
+    "show_ask_for_photo": true,
+    "first_name": "Zimo",
+    "last_name": "Ding",
+    "network_name": "Texas A\u0026M University",
+    "network_domains": [
+        "tamu.edu",
+        "groups.tamu.edu",
+        "outlook.tamu.edu",
+        "tamucs.onmicrosoft.com"
+    ],
+    "url": "https://www.yammer.com/api/v1/users/253828489216",
+    "web_url": "https://www.yammer.com/tamu.edu/users/253828489216",
+    "name": "dingzm98",
+    "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/no_photo.png",
+    "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/no_photo.png",
+    "birth_date": "",
+    "birth_date_complete": "",
+    "timezone": "Central America",
+    "external_urls": [],
+    "admin": "false",
+    "verified_admin": "false",
+    "supervisor_admin": "false",
+    "o365_tenant_admin": "false",
+    "can_broadcast": "false",
+    "department": null,
+    "email": "dingzm98@tamu.edu",
+    "guest": false,
+    "aad_guest": false,
+    "can_create_new_network": true,
+    "can_browse_external_networks": true,
+    "significant_other": "",
+    "kids_names": "",
+    "previous_companies": [],
+    "schools": [],
+    "contact": {
+        "im": {
+            "provider": "",
+            "username": ""
+        },
+        "phone_numbers": [],
+        "email_addresses": [
+            {
+                "type": "primary",
+                "address": "dingzm98@tamu.edu"
+            }
+        ],
+        "has_fake_email": false
+    },
+    "stats": {
+        "following": 1,
+        "followers": 1,
+        "updates": 0
+    },
+    "settings": {
+        "xdr_proxy": ""
+    },
+    "web_preferences": {
+        "absolute_timestamps": false,
+        "network_settings": {
+            "message_prompt": "What are you working on?",
+            "allow_attachments": "true",
+            "attachment_types_allowed": "ALL",
+            "show_communities_directory": true,
+            "allow_yammer_apps": true,
+            "enable_groups": true,
+            "admin_can_delete_messages": "true",
+            "allow_inline_document_view": true,
+            "enable_private_messages": true,
+            "allow_external_sharing": true,
+            "enable_chat": true
+        },
+        "enter_does_not_submit_message": "true",
+        "preferred_my_feed": "algo",
+        "prescribed_my_feed": "algo",
+        "sticky_my_feed": false,
+        "prefer_modern_client": null,
+        "enable_chat": "true",
+        "dismissed_feed_tooltip": false,
+        "dismissed_group_tooltip": false,
+        "dismissed_profile_prompt": false,
+        "dismissed_invite_tooltip": false,
+        "dismissed_apps_tooltip": false,
+        "dismissed_invite_tooltip_at": null,
+        "dismissed_browser_lifecycle_banner": null,
+        "make_yammer_homepage": true,
+        "locale": "en-US",
+        "has_yammer_now": false,
+        "has_mobile_client": false,
+        "user_preferred_locale": "en-US"
+    },
+    "follow_general_messages": false,
+    "show_invite_lightbox": false,
+    "age_bucket": "notRequired"
+}
+index.js: 132 xhrWithAuth GET https: //cors-anywhere.herokuapp.com/https://www.yammer.com/api/v1/groups/for_user/253828489216.json false
+index.js: 137 token fetch null 1888-UIe4EllcIjVGzBl2GyNykA
+index.js: 160 no data detect
+index.js: 233 Got the following user groups: [
+    {
+        "type": "group",
+        "id": 9734488064,
+        "email": "403testing+tamu.edu@yammer.com",
+        "full_name": "403 Testing",
+        "network_id": 1888,
+        "name": "403testing",
+        "description": null,
+        "privacy": "private",
+        "url": "https://www.yammer.com/api/v1/groups/9734488064",
+        "web_url": "https://www.yammer.com/tamu.edu/#/threads/inGroup?type=in_group\u0026feedId=9734488064",
+        "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/group_profile.png",
+        "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/group_profile.png",
+        "mugshot_id": null,
+        "show_in_directory": "true",
+        "created_at": "2019/09/23 21:20:26 +0000",
+        "aad_guest": 0,
+        "color": "#0e4f7a",
+        "external": false,
+        "moderated": true,
+        "header_image_url": "https://mug0.assets-yammer.com/mugshot/images/group-header-megaphone.png",
+        "category": "unclassified",
+        "default_thread_starter_type": "normal",
+        "restricted_posting": false,
+        "company_group": false,
+        "creator_type": "user",
+        "creator_id": 281148301312,
+        "state": "active",
+        "stats": {
+            "members": 3,
+            "aad_guests": 0,
+            "updates": 0,
+            "last_message_id": 645364944453632,
+            "last_message_at": "2020/04/21 02:55:48 +0000"
+        }
+    },
+    {
+        "type": "group",
+        "id": 9934020608,
+        "email": "robomaster+tamu.edu@yammer.com",
+        "full_name": "Robomaster",
+        "network_id": 1888,
+        "name": "robomaster",
+        "description": "",
+        "privacy": "private",
+        "url": "https://www.yammer.com/api/v1/groups/9934020608",
+        "web_url": "https://www.yammer.com/tamu.edu/#/threads/inGroup?type=in_group\u0026feedId=9934020608",
+        "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/group_profile.png",
+        "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/group_profile.png",
+        "mugshot_id": "",
+        "show_in_directory": "false",
+        "created_at": "2019/09/28 17:35:30 +0000",
+        "aad_guest": 0,
+        "color": "#0e4f7a",
+        "external": false,
+        "moderated": true,
+        "header_image_url": "https://mug0.assets-yammer.com/mugshot/images/group-header-megaphone.png",
+        "category": "unclassified",
+        "default_thread_starter_type": "normal",
+        "restricted_posting": false,
+        "company_group": false,
+        "creator_type": "user",
+        "creator_id": 253828489216,
+        "state": "active",
+        "stats": {
+            "members": 2,
+            "aad_guests": 0,
+            "updates": 0,
+            "last_message_id": 347643743862784,
+            "last_message_at": "2019/09/28 17:36:21 +0000"
+        }
+    },
+    {
+        "type": "group",
+        "id": 12126945280,
+        "email": "yammersearchtestergroup+tamu.edu@yammer.com",
+        "full_name": "Yammer Search TesterGroup",
+        "network_id": 1888,
+        "name": "yammersearchtestergroup",
+        "description": "Developing a smart search tool for Yammer",
+        "privacy": "public",
+        "url": "https://www.yammer.com/api/v1/groups/12126945280",
+        "web_url": "https://www.yammer.com/tamu.edu/#/threads/inGroup?type=in_group\u0026feedId=12126945280",
+        "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/group_profile.png",
+        "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/group_profile.png",
+        "mugshot_id": "",
+        "show_in_directory": "true",
+        "created_at": "2019/11/15 03:29:46 +0000",
+        "aad_guest": 0,
+        "color": "#317C8B",
+        "external": true,
+        "moderated": false,
+        "header_image_url": "https://mug0.assets-yammer.com/mugshot/images/group-header-books.png",
+        "category": "unclassified",
+        "default_thread_starter_type": "normal",
+        "restricted_posting": false,
+        "company_group": false,
+        "creator_type": "user",
+        "creator_id": 281148301312,
+        "state": "active",
+        "stats": {
+            "members": 4,
+            "aad_guests": 0,
+            "updates": 0,
+            "last_message_id": 427044431994880,
+            "last_message_at": "2019/11/22 12:13:51 +0000"
+        },
+        "network_name": "Texas A\u0026M University",
+        "participating_networks": [
+            {
+                "id": 3624,
+                "name": "Shell"
+            },
+            {
+                "id": 1888,
+                "name": "Texas A\u0026M University"
+            }
+        ],
+        "suggested_networks": [],
+        "network_allows_attachments": true,
+        "network_attachment_types_allowed": "ALL"
+    }
+]
+index.js: 241 (3) [
+    "403testing",
+    "robomaster",
+    "yammersearchtestergroup"
+]
+index.js: 132 xhrWithAuth GET https: //cors-anywhere.herokuapp.com/https://www.yammer.com/api/v1/users/current.json true
+index.js: 137 token fetch null 1888-UIe4EllcIjVGzBl2GyNykA
+index.js: 160 no data detect
+index.js: 203 Got the following user info: {
+    "type": "user",
+    "id": 253828489216,
+    "network_id": 1888,
+    "state": "active",
+    "guid": null,
+    "job_title": null,
+    "location": null,
+    "interests": null,
+    "summary": null,
+    "expertise": null,
+    "full_name": "Zimo Ding",
+    "activated_at": "2019/09/23 22:23:32 +0000",
+    "auto_activated": true,
+    "show_ask_for_photo": true,
+    "first_name": "Zimo",
+    "last_name": "Ding",
+    "network_name": "Texas A\u0026M University",
+    "network_domains": [
+        "tamu.edu",
+        "groups.tamu.edu",
+        "outlook.tamu.edu",
+        "tamucs.onmicrosoft.com"
+    ],
+    "url": "https://www.yammer.com/api/v1/users/253828489216",
+    "web_url": "https://www.yammer.com/tamu.edu/users/253828489216",
+    "name": "dingzm98",
+    "mugshot_url": "https://mug0.assets-yammer.com/mugshot/images/48x48/no_photo.png",
+    "mugshot_url_template": "https://mug0.assets-yammer.com/mugshot/images/{width}x{height}/no_photo.png",
+    "birth_date": "",
+    "birth_date_complete": "",
+    "timezone": "Central America",
+    "external_urls": [],
+    "admin": "false",
+    "verified_admin": "false",
+    "supervisor_admin": "false",
+    "o365_tenant_admin": "false",
+    "can_broadcast": "false",
+    "department": null,
+    "email": "dingzm98@tamu.edu",
+    "guest": false,
+    "aad_guest": false,
+    "can_create_new_network": true,
+    "can_browse_external_networks": true,
+    "significant_other": "",
+    "kids_names": "",
+    "previous_companies": [],
+    "schools": [],
+    "contact": {
+        "im": {
+            "provider": "",
+            "username": ""
+        },
+        "phone_numbers": [],
+        "email_addresses": [
+            {
+                "type": "primary",
+                "address": "dingzm98@tamu.edu"
+            }
+        ],
+        "has_fake_email": false
+    },
+    "stats": {
+        "following": 1,
+        "followers": 1,
+        "updates": 0
+    },
+    "settings": {
+        "xdr_proxy": ""
+    },
+    "web_preferences": {
+        "absolute_timestamps": false,
+        "network_settings": {
+            "message_prompt": "What are you working on?",
+            "allow_attachments": "true",
+            "attachment_types_allowed": "ALL",
+            "show_communities_directory": true,
+            "allow_yammer_apps": true,
+            "enable_groups": true,
+            "admin_can_delete_messages": "true",
+            "allow_inline_document_view": true,
+            "enable_private_messages": true,
+            "allow_external_sharing": true,
+            "enable_chat": true
+        },
+        "enter_does_not_submit_message": "true",
+        "preferred_my_feed": "algo",
+        "prescribed_my_feed": "algo",
+        "sticky_my_feed": false,
+        "prefer_modern_client": null,
+        "enable_chat": "true",
+        "dismissed_feed_tooltip": false,
+        "dismissed_group_tooltip": false,
+        "dismissed_profile_prompt": false,
+        "dismissed_invite_tooltip": false,
+        "dismissed_apps_tooltip": false,
+        "dismissed_invite_tooltip_at": null,
+        "dismissed_browser_lifecycle_banner": null,
+        "make_yammer_homepage": true,
+        "locale": "en-US",
+        "has_yammer_now": false,
+        "has_mobile_client": false,
+        "user_preferred_locale": "en-US"
+    },
+    "follow_general_messages": false,
+    "show_invite_lightbox": false,
+    "age_bucket": "notRequired"
+}
